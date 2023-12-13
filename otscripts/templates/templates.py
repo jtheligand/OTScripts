@@ -87,7 +87,7 @@ def run(protocol: protocol_api.ProtocolContext):
 	
 	#p300.drop_tip()
 
-    #Dilute and mix the analytical plate
+    #Dilute the analytical plate
 	p300.well_bottom_clearance.aspirate = 3
 	p300.well_bottom_clearance.dispense = 15
 	for i in destination_plate.rows()[0]:
@@ -108,7 +108,7 @@ def run(protocol: protocol_api.ProtocolContext):
 	
     #p300.drop_tip()
 	
-	#Mix parent plate then aliquot into destination plate
+	#Mix parent plate then aliquot into destination plate and mix after last aliquot
 	p300.well_bottom_clearance.aspirate = 5
 	p300.well_bottom_clearance.dispense = 20
 	for source in source_list:
