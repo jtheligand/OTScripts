@@ -17,10 +17,10 @@ def gen_vol_list(volume):
 		dispense_vols.append(volume % 200)
 	return dispense_vols
 
-plate_dilution_vol = 10
+plate_dilution_vol = 200
 plate_dilution_list = gen_vol_list(plate_dilution_vol)
 aliquot_vol = 20
-analytical_dilution_vol = 200
+analytical_dilution_vol = 380
 analytical_dilution_list = gen_vol_list(analytical_dilution_vol)
 number_plates = 1 #Must be 3 or less!
 
