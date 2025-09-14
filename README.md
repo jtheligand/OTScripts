@@ -7,6 +7,4 @@ Workup protocols based on Opentrons documentation which can be found [here](http
 
 Developed and tested using Python (3.9.18), Opentrons OT-2 (API version 2.15), Panel (1.2.3), Param (1.13.0), Jinja2 (3.1.2), and acetonitrile
 
-Jessica Sampson, UD HTE center, Dec 2023
-
 
